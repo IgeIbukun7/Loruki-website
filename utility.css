@@ -1,0 +1,233 @@
+/* Utilities */
+
+.container {
+    max-width: 1100px;
+    padding: 0 40px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    background-color: white;
+    color: rgb(36, 37, 37);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Backgrounds and buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+    transition: ease-in 0.4s;
+}
+
+.btn-primary,
+.bg-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-secondary,
+.bg-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-dark,
+.bg-dark {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.btn-light,
+.bg-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.btn-primary a,
+.bg-primary a,
+.btn-secondary a,
+.bg-secondary a,
+.btn-dark a,
+.bg-dark a {
+    color: white;
+}
+
+/* Text Color */
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.text-light {
+    color: var(--light-color);
+}
+/* Alert */
+.alert{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: var(--light-color);
+    margin: 10px 0;
+}
+.alert i{
+    margin-right: 10px;
+}
+.alert-success {
+    background-color: var(--success-color);
+    color: white;
+}
+.alert-error {
+    background-color: var(--error-color);
+    color: white;
+}
+/* Text sizes */
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* margins */
+/* y and x indicate the respective axes */
+.my-1 {
+    margin: 1em 0;
+}
+
+.my-2 {
+    margin: 1.5em 0;
+}
+
+.my-3 {
+    margin: 2em 0;
+}
+
+.my-4 {
+    margin: 3em 0;
+}
+
+.my-5 {
+    margin: 4em 0;
+}
+
+.m-1 {
+    margin: 1em;
+}
+
+.m-2 {
+    margin: 1.5em;
+}
+
+.m-3 {
+    margin: 2em;
+}
+
+.m-4 {
+    margin: 3em;
+}
+
+.m-5 {
+    margin: 4em;
+}
+
+/* padding */
+.py-1 {
+    padding: 1em 0;
+}
+
+.py-2 {
+    padding: 1.5em 0;
+}
+
+.py-3 {
+    padding: 2em 0;
+}
+
+.py-4 {
+    padding: 3em 0;
+}
+
+.py-5 {
+    padding: 4em 0;
+}
+
+.p-1 {
+    padding: 1em;
+}
+
+.p-2 {
+    padding: 1.5em;
+}
+
+.p-3 {
+    padding: 2em;
+}
+
+.p-4 {
+    padding: 3em;
+}
+
+.p-5 {
+    padding: 4em;
+}
